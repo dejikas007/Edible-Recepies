@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.header-section{
+    width: 100%;
+    height: auto;
+    padding: 32px 120px;
+    background-color:lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.namecont{
+    font-size: 50px;
+    color: blue;
+    margin-left: 15px;
+    text-align: right;
+    
+}
+
+.nav-menu{
+    width: fit-content;
+    height: auto;
+    font-size: 45px;
+    margin-right: 45px;
+    justify-content: center;
+    align-items: center;
+}
+
+.unordered-list{
+    display: flex;
+    column-gap: 40px;
+    list-style: none;
+    justify-content: center;
+}
+
+.unordered-list li a{
+    text-decoration: none;
+    color: green;
+    justify-content: center;
+    
+}
+.unordered-list li a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.TypesOfMeals{
+    width: 100%;
+    height: auto;
+    padding: 32px 120px;
+    background-color:lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: yellow;
+    font-size: 30px;
+}
+.MealPic{
+    gap: 20px;
+    display: flex;
+    height: 300px;
+  
+}
+.Detail{
+    margin-top: 20px;
+    font-size: 50px;
+    color: darkblue;
+}
+
+topsection{
+    width: 100%;
+    height: 100vh;
+}
+
+.topCont{
+    background-color: blue;
+    margin-bottom: 40px;
+}
+.topCont h1{
+    font-size: 100px;
+    text-align: center;
+    color: beige;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+
+.topCont p{
+    font-size: 30px;
+}
+.main{
+    background-color: yellow;
+    border: none;
+}
+
+
+.main1 h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+
+}
+
+.main p{
+    font-size: 25px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.recipe h2 {
+    font-size: 30px;
+    margin-top: 15px;
+    text-decoration: underline;
+}
+.method h3{
+    font-size: 30px;
+    margin-top: 15px;
+    text-decoration: underline;
+}
+.main2 h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.main2 p{
+    font-size: 25px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.ingredients h2 {
+    font-size: 30px;
+    margin-top: 15px;
+    text-decoration: underline;
+}
+.main3 h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.methodA h3{
+    font-size: 30px;
+    margin-top: 15px;
+    text-decoration: underline;
+}
+.recipeA h2 {
+    font-size: 30px;
+    margin-top: 15px;
+    text-decoration: underline;
+}
+
